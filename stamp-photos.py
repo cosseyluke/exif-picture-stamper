@@ -17,8 +17,6 @@ def read_directory(pathname, file_types):
 def main():
 	input = "./source"
 	output = "./output"
-	pictures = list()
-	filename = "IMG_0015"
 	file_type = "jpg"
 
 	pictures = read_directory(input, "*.%s" % file_type)
